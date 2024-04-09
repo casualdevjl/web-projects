@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Seat Booking</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script defer src="js/script.js"></script>
+  </head>
+  <body>
+    <div class="movie-container">
+      <label>Select a movie:</label>
+      <!-- Dropdown Menu -->
+      <select id="movie">
+        <option value="10">Avengers: Endgame ($10)</option>
+        <option value="8">Joker ($8)</option>
+        <option value="12">Frozen II ($12)</option>
+        <option value="9">Toy Story 4 ($9)</option>
+      </select>
+    </div>
+
+    <!-- Cinema -->
+    <div class="cinema">
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+    </div>
+    <div class="info">
+      <p>Total Tickets: <span id="ticketCount">0</span></p>
+      <p>Total Price: $<span id="totalPrice">0</span></p>
+    </div>
+  </body>
+</html>
