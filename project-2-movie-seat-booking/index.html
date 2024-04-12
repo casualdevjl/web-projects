@@ -8,7 +8,7 @@
     <script defer src="js/script.js"></script>
   </head>
   <body>
-    <div class="movie-container">
+    <div class="container">
       <label>Select a movie:</label>
       <!-- Dropdown Menu -->
       <select id="movie">
@@ -17,42 +17,43 @@
         <option value="12">Frozen II ($12)</option>
         <option value="9">Toy Story 4 ($9)</option>
       </select>
-    </div>
 
-    <!-- Cinema -->
-    <div class="cinema">
-      <div class="row">
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
+      <!-- Cinema -->
+      <div class="cinema">
+        <div class="row">
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+        </div>
+        <div class="row">
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+        </div>
+        <div class="row">
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+        </div>
+        <div class="row">
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+        </div>
       </div>
-      <div class="row">
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
+      <div class="info">
+        <p>Total Tickets: <span id="ticketCount">0</span></p>
+        <p>Total Price: $<span id="totalPrice">0</span></p>
       </div>
-      <div class="row">
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-      </div>
-      <div class="row">
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-      </div>
-    </div>
-    <div class="info">
-      <p>Total Tickets: <span id="ticketCount">0</span></p>
-      <p>Total Price: $<span id="totalPrice">0</span></p>
+      <button>Submit Booking</button>
     </div>
   </body>
 </html>
